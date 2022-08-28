@@ -1,0 +1,7 @@
+CREATE PROC dbo.ShowAllProjectSP
+AS
+BEGIN
+	SELECT * FROM Project
+END
+GO
+

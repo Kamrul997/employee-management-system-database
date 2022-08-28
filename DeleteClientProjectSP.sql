@@ -1,0 +1,5 @@
+CREATE PROC dbo.DeleteClientProjectSP @ID INT
+AS
+BEGIN
+	DELETE FROM ClientProject WHERE ID = @ID
+END

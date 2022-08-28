@@ -1,0 +1,7 @@
+CREATE PROC dbo.ShowAllSalarySP
+AS
+BEGIN
+	SELECT * FROM Salary
+END
+GO
+

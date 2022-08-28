@@ -1,0 +1,11 @@
+exec AddNewSalarySP '2020-01-02','2020-02-02',25000,100
+exec AddNewSalarySP '2020-01-02','2020-02-02',25000,101
+exec AddNewSalarySP '2020-01-02','2020-02-02',25000,102
+exec AddNewSalarySP '2020-01-02','2020-02-02',25000,103
+exec AddNewSalarySP '2020-01-02','2020-02-02',25000,104
+exec AddNewSalarySP '2020-01-02','2020-02-02',25000,105
+exec AddNewSalarySP '2020-01-02','2020-02-02',25000,106
+exec AddNewSalarySP '2020-01-02','2020-02-02',25000,107
+exec AddNewSalarySP '2020-01-02','2020-02-02',25000,108
+
+exec ShowAllSalarySP
