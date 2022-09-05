@@ -1,7 +1,7 @@
-CREATE PROC dbo.DeleteSalarySP @SalaryID INT
+CREATE PROC dbo.DeleteSalarySP @DeleteID INT
 AS
 BEGIN
-	DELETE FROM Salary WHERE SalaryID = @SalaryID
+	DELETE FROM Salary WHERE SalaryID = @DeleteID
 END
 GO
-EXEC DeleteSalarySP 101
+

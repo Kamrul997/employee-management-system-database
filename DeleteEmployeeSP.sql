@@ -1,5 +1,6 @@
-CREATE PROC dbo.DeleteEmployeeSP @EmployeeID INT
+CREATE PROC dbo.DeleteEmployeeSP @DeleteID INT
 AS
 BEGIN
-	DELETE FROM Employee WHERE EmployeeID = @EmployeeID
+	DELETE FROM Salary WHERE EmployeeID = @DeleteID
+	DELETE FROM Employee WHERE EmployeeID = @DeleteID
 END

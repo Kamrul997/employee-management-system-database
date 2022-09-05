@@ -1,7 +1,6 @@
-CREATE PROC dbo.DeleteClientSP @ClientID INT
+CREATE PROC dbo.DeleteClientSP @DeleteID INT
 AS
 BEGIN
-	DELETE FROM Client WHERE ClientID = @ClientID
+	DELETE FROM Client WHERE ClientID = @DeleteID
 END
 GO
-EXEC DeleteUserSP 101

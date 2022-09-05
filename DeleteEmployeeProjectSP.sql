@@ -1,7 +1,7 @@
-CREATE PROC dbo.DeleteEmployeeProjectSP @ID INT
+CREATE PROC dbo.DeleteEmployeeProjectSP @DeleteID INT
 AS
 BEGIN
-	DELETE FROM EmployeeProject WHERE ID = @ID
+	DELETE FROM EmployeeProject WHERE ID = @DeleteID
 END
 
 
