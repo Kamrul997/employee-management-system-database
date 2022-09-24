@@ -64,6 +64,7 @@ BEGIN
 		@UserID,
 		@Gender
 		)
+		SELECT @ERROR AS ErrorMessage
 	END
 	ELSE
 		SELECT @ERROR AS ErrorMessage
