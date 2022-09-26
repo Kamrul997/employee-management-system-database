@@ -1,11 +1,10 @@
-CREATE PROCEDURE dbo.UpdateEmployeeProjectSP 
+Alter PROCEDURE dbo.UpdateEmployeeProjectSP 
 	@EmployeeID INT,
-	@ProjectID INT,
-	@ID INT
+	@ProjectID INT
 AS   
 BEGIN
 	UPDATE EmployeeProject SET 
 	EmployeeID = @EmployeeID, 
 	ProjectID = @ProjectID
-	WHERE ID = @ID
+	WHERE EmployeeID = @EmployeeID
 END
